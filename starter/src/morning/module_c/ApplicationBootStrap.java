@@ -14,5 +14,6 @@ public class ApplicationBootStrap {
         UserService userService = new UserService();
         User user = userService.generateUser();
         System.out.println(user);
+        System.out.println(user.getName());
     }
 }

@@ -8,4 +8,7 @@ module module.service.b {
     requires java.logging;
 
     exports morning.module_b.service;
+
+    //
+    uses morning.module_b.service.HelloService;
 }
